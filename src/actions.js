@@ -28,31 +28,11 @@ export function selectCourse(course) {
       description = "Oops!"
       break;
     };
-    return {
-      type: actions.SELECT_COURSE,
-      payload: {
-        description,
-        course
-      },
-    };
-    
-
-    
-    // case "blaw3205":
-    //   Store.dispatch(actions.showBLAW3205());
-    //   break;
-    // case "busa3455":
-    //   Store.dispatch(actions.showBUSA3455());
-    //   break;
-    // case "idsp3380":
-    //   Store.dispatch(actions.showIDSP3380());
-    //   break;
-    // case "mktg1352":
-    //   Store.dispatch(actions.showMKTG1352());
-    //   break;
-    // default:
-    //   Store.dispatch(actions.showCOMP3330());
-    //   break;
-  // }
- 
+  return {
+    type: actions.SELECT_COURSE,
+    payload: {
+      description,
+      course
+    },
+  };
 }

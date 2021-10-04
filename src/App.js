@@ -7,15 +7,9 @@ import store from './store';
 import List from './List';
 import Course from './Course';
 
-// store.dispatch({
-//   type: ""
-// })
-
-
 function App() {
   console.log(store)
   return (
-    
     <BrowserRouter>
       <nav>
         <ul>
@@ -34,19 +28,14 @@ function App() {
         </ul>
       </nav>
       <body>
-        
-      <Switch>
-        <Route path ="/about" component={About}></Route>
-        <Route path ="/courses" component={List}></Route>
-        {/* <Route path ="/courses" component={Course}></Route> */}
-        <Route path ="/" component={Home}></Route>
-
-      </Switch>
-        </body>
-
-
-  </BrowserRouter>
-
+        <Switch>
+          <Route path ="/about" component={About}></Route>
+          <Route path ="/courses" component={List}></Route>
+          {/* <Route path ="/courses" component={Course}></Route> */}
+          <Route path ="/" component={Home}></Route>
+        </Switch>
+      </body>
+    </BrowserRouter>
   );
 }
 

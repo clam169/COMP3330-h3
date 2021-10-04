@@ -1,0 +1,1 @@
+Used redux and route to display our term 3 courses and their respection descriptions.

@@ -24,9 +24,6 @@ function List() {
         <li>
 					<Link to="/courses/mktg1352">MKTG 1352: Digital Marketing</Link>
 				</li>
-        <li>
-					<Link to="/courses/idsp3380">IDSP 3380: Web Projects 2</Link>
-				</li>
 				<li>
 					<Link to="/courses/comp3330">COMP 3330: Javascript frameworks and server</Link>
 				</li>
